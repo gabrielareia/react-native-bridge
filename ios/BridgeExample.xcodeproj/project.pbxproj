@@ -14,6 +14,15 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-BridgeExample-BridgeExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-BridgeExample-BridgeExampleTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D7C528C460B84B2CA6021E9E /* MuseoModerno-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C17661F4DF5D46B2965E72F9 /* MuseoModerno-Black.ttf */; };
+		667F7850B309458982F2D292 /* MuseoModerno-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CEFB25472A8489D892938CE /* MuseoModerno-Bold.ttf */; };
+		A6F261E55F8F459CA9590CDE /* MuseoModerno-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B40BE3DA1D44614A9CED690 /* MuseoModerno-ExtraBold.ttf */; };
+		96D24E1F2C794A69A8D289CE /* MuseoModerno-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AF243B28A574E26B9136A4F /* MuseoModerno-ExtraLight.ttf */; };
+		572DD96ABA144A04A9F88588 /* MuseoModerno-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47074879A2B54B659530A10B /* MuseoModerno-Light.ttf */; };
+		F9573FC0FE4A4416A0F7E45E /* MuseoModerno-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9AF9DDB6831430C8E896F38 /* MuseoModerno-Medium.ttf */; };
+		CF4D0D65BC4B46A6A063E601 /* MuseoModerno-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93EFF79F7E1745F79BCC7721 /* MuseoModerno-Regular.ttf */; };
+		ED332468FE644AB485FCF228 /* MuseoModerno-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65557B0E11C14EF0A70B4951 /* MuseoModerno-SemiBold.ttf */; };
+		A4EE5EB2D3EB4ADBB8CB5CF9 /* MuseoModerno-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 813D9B4D6236454DBB20794F /* MuseoModerno-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BridgeExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-BridgeExample-BridgeExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BridgeExample-BridgeExampleTests.release.xcconfig"; path = "Target Support Files/Pods-BridgeExample-BridgeExampleTests/Pods-BridgeExample-BridgeExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		C17661F4DF5D46B2965E72F9 /* MuseoModerno-Black.ttf */ = {isa = PBXFileReference; name = "MuseoModerno-Black.ttf"; path = "../assets/fonts/MuseoModerno-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9CEFB25472A8489D892938CE /* MuseoModerno-Bold.ttf */ = {isa = PBXFileReference; name = "MuseoModerno-Bold.ttf"; path = "../assets/fonts/MuseoModerno-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1B40BE3DA1D44614A9CED690 /* MuseoModerno-ExtraBold.ttf */ = {isa = PBXFileReference; name = "MuseoModerno-ExtraBold.ttf"; path = "../assets/fonts/MuseoModerno-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3AF243B28A574E26B9136A4F /* MuseoModerno-ExtraLight.ttf */ = {isa = PBXFileReference; name = "MuseoModerno-ExtraLight.ttf"; path = "../assets/fonts/MuseoModerno-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		47074879A2B54B659530A10B /* MuseoModerno-Light.ttf */ = {isa = PBXFileReference; name = "MuseoModerno-Light.ttf"; path = "../assets/fonts/MuseoModerno-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C9AF9DDB6831430C8E896F38 /* MuseoModerno-Medium.ttf */ = {isa = PBXFileReference; name = "MuseoModerno-Medium.ttf"; path = "../assets/fonts/MuseoModerno-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		93EFF79F7E1745F79BCC7721 /* MuseoModerno-Regular.ttf */ = {isa = PBXFileReference; name = "MuseoModerno-Regular.ttf"; path = "../assets/fonts/MuseoModerno-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		65557B0E11C14EF0A70B4951 /* MuseoModerno-SemiBold.ttf */ = {isa = PBXFileReference; name = "MuseoModerno-SemiBold.ttf"; path = "../assets/fonts/MuseoModerno-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		813D9B4D6236454DBB20794F /* MuseoModerno-Thin.ttf */ = {isa = PBXFileReference; name = "MuseoModerno-Thin.ttf"; path = "../assets/fonts/MuseoModerno-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +140,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				15E053AACA244CC89D583146 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +166,23 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		15E053AACA244CC89D583146 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				C17661F4DF5D46B2965E72F9 /* MuseoModerno-Black.ttf */,
+				9CEFB25472A8489D892938CE /* MuseoModerno-Bold.ttf */,
+				1B40BE3DA1D44614A9CED690 /* MuseoModerno-ExtraBold.ttf */,
+				3AF243B28A574E26B9136A4F /* MuseoModerno-ExtraLight.ttf */,
+				47074879A2B54B659530A10B /* MuseoModerno-Light.ttf */,
+				C9AF9DDB6831430C8E896F38 /* MuseoModerno-Medium.ttf */,
+				93EFF79F7E1745F79BCC7721 /* MuseoModerno-Regular.ttf */,
+				65557B0E11C14EF0A70B4951 /* MuseoModerno-SemiBold.ttf */,
+				813D9B4D6236454DBB20794F /* MuseoModerno-Thin.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +280,15 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D7C528C460B84B2CA6021E9E /* MuseoModerno-Black.ttf in Resources */,
+				667F7850B309458982F2D292 /* MuseoModerno-Bold.ttf in Resources */,
+				A6F261E55F8F459CA9590CDE /* MuseoModerno-ExtraBold.ttf in Resources */,
+				96D24E1F2C794A69A8D289CE /* MuseoModerno-ExtraLight.ttf in Resources */,
+				572DD96ABA144A04A9F88588 /* MuseoModerno-Light.ttf in Resources */,
+				F9573FC0FE4A4416A0F7E45E /* MuseoModerno-Medium.ttf in Resources */,
+				CF4D0D65BC4B46A6A063E601 /* MuseoModerno-Regular.ttf in Resources */,
+				ED332468FE644AB485FCF228 /* MuseoModerno-SemiBold.ttf in Resources */,
+				A4EE5EB2D3EB4ADBB8CB5CF9 /* MuseoModerno-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
