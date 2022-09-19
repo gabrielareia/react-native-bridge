@@ -1,5 +1,5 @@
-import { Animated, TouchableOpacity } from 'react-native';
-import styled, { css } from 'styled-components/native';
+import { TouchableOpacity } from 'react-native';
+import styled from 'styled-components/native';
 import Paragraph from '../../Text/Paragraph';
 import Title from '../../Text/Title';
 
@@ -50,27 +50,16 @@ export const CloseIcon = styled.Text`
   z-index: 200;
 `;
 
-export const EffectsRack = styled.View`
+export const EffectsRack = styled.ScrollView`
   background-color: #404040;
   height: 80px;
   width: 100%;
   position: absolute;
   bottom: 0;
   padding: 6px;
-  display: flex;
-  flex-direction: row;
-`;
-
-export const Effect = styled.View`
-  background-color: #ff0000;
-  height: 100%;
-  aspect-ratio: 1;
-  border-radius: 80px;
-  margin-right: 8px;
 `;
 
 export const Loader = styled.View`
-  background-color: #efefefaa;
   height: 100%;
   width: 100%;
   z-index: 50;

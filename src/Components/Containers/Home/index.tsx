@@ -7,10 +7,14 @@ import {
 } from 'react-native';
 import { Animated } from 'react-native';
 import { colorsFilter } from '../../../filters/colors';
+import { lowContrastFilter } from '../../../filters/lowContrast';
+import { lomoFilter } from '../../../filters/lomo';
 import { sepiaFilter } from '../../../filters/sepia';
 import { squareBorderFilter } from '../../../filters/squareBorder';
 import { IFilter } from '../../../types/filter';
+import FilterPreview from '../../FilterPreview';
 import * as S from './styles';
+import { highContrastFilter } from '../../../filters/highContrast';
 
 enum TextStatus {
   WELCOME_ANIMATION = 'welcome',
@@ -133,8 +137,12 @@ function Home() {
     fadeInStart();
   };
 
-  const setLoadedImage = async (data: string, width: number, height: number) => {
-    console.log(width, height)
+  const setLoadedImage = async (
+    data: string,
+    width: number,
+    height: number,
+  ) => {
+    console.log(width, height);
     setImageData(data);
     setOriginalImageData(data);
     setLoading(false);
@@ -232,7 +240,7 @@ function Home() {
     setLoadingFilter({ loading: false, filter: '' });
   };
 
-  const applyEffect = (filter: IFilter[]) => {
+  const applyFilter = (filter: IFilter[]) => {
     setLoadingFilter({ loading: true, filter: JSON.stringify(filter) });
   };
 
@@ -274,7 +282,6 @@ function Home() {
             )}
             <Image
               progressiveRenderingEnabled
-              
               style={{
                 width: '100%',
                 height: '100%',
@@ -305,10 +312,16 @@ function Home() {
         )}
       </S.Wrapper>
       {imageData && (
-        <S.EffectsRack>
-          <S.Effect onTouchStart={() => applyEffect(sepiaFilter)} />
-          <S.Effect onTouchStart={() => applyEffect(squareBorderFilter)} />
-          <S.Effect onTouchStart={() => applyEffect(colorsFilter)} />
+        <S.EffectsRack horizontal>
+          <FilterPreview applyFilter={applyFilter} filter={sepiaFilter} />
+          <FilterPreview applyFilter={applyFilter} filter={lomoFilter} />
+          <FilterPreview applyFilter={applyFilter} filter={lowContrastFilter} />
+          <FilterPreview applyFilter={applyFilter} filter={highContrastFilter} />
+          <FilterPreview
+            applyFilter={applyFilter}
+            filter={squareBorderFilter}
+          />
+          <FilterPreview applyFilter={applyFilter} filter={colorsFilter} />
         </S.EffectsRack>
       )}
     </S.Screen>
