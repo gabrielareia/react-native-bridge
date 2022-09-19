@@ -1,5 +1,8 @@
 package com.bridgeexample;
 
+import android.graphics.Color;
+import android.os.Bundle;
+
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;
