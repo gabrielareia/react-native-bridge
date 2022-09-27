@@ -1,4 +1,4 @@
-package com.bridgeexample;
+package com.gabrielareia.bridgephotoeditor;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -15,7 +15,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "BridgeExample";
+    return "Bridge";
   }
 
   /**

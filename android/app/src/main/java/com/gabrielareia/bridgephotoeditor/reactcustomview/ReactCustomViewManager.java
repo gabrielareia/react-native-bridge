@@ -1,4 +1,4 @@
-package com.bridgeexample.reactcustomview;
+package com.gabrielareia.bridgephotoeditor.reactcustomview;
 
 import android.graphics.Color;
 import android.view.View;

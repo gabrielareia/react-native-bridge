@@ -1,4 +1,4 @@
-package com.bridgeexample.reactcustomview;
+package com.gabrielareia.bridgephotoeditor.reactcustomview;
 
 import androidx.annotation.NonNull;
 

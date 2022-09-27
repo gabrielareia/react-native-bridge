@@ -1,4 +1,4 @@
-package com.bridgeexample.examplebridge;
+package com.gabrielareia.bridgephotoeditor.examplebridge;
 
 import android.util.Log;
 

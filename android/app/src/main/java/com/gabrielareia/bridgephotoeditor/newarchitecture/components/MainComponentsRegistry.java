@@ -1,4 +1,4 @@
-package com.bridgeexample.newarchitecture.components;
+package com.gabrielareia.bridgephotoeditor.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

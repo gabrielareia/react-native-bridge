@@ -1,10 +1,10 @@
-package com.bridgeexample;
+package com.gabrielareia.bridgephotoeditor;
 
 import android.app.Application;
 import android.content.Context;
 
-import com.bridgeexample.examplebridge.MyAppPackage;
-import com.bridgeexample.reactcustomview.ReactCustomViewPackage;
+import com.gabrielareia.bridgephotoeditor.examplebridge.MyAppPackage;
+import com.gabrielareia.bridgephotoeditor.reactcustomview.ReactCustomViewPackage;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactInstanceManager;
@@ -12,7 +12,7 @@ import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.config.ReactFeatureFlags;
 import com.facebook.soloader.SoLoader;
-import com.bridgeexample.newarchitecture.MainApplicationReactNativeHost;
+import com.gabrielareia.bridgephotoeditor.newarchitecture.MainApplicationReactNativeHost;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
@@ -77,7 +77,7 @@ public class MainApplication extends Application implements ReactApplication {
          We use reflection here to pick up the class that initializes Flipper,
         since Flipper library is not available in release mode
         */
-        Class<?> aClass = Class.forName("com.bridgeexample.ReactNativeFlipper");
+        Class<?> aClass = Class.forName("com.gabrielareia.bridgephotoeditor.ReactNativeFlipper");
         aClass
             .getMethod("initializeFlipper", Context.class, ReactInstanceManager.class)
             .invoke(null, context, reactInstanceManager);

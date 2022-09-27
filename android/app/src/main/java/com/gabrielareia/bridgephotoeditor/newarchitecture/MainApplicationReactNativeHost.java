@@ -1,4 +1,4 @@
-package com.bridgeexample.newarchitecture;
+package com.gabrielareia.bridgephotoeditor.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.bridgeexample.BuildConfig;
-import com.bridgeexample.newarchitecture.components.MainComponentsRegistry;
-import com.bridgeexample.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.gabrielareia.bridgephotoeditor.BuildConfig;
+import com.gabrielareia.bridgephotoeditor.newarchitecture.components.MainComponentsRegistry;
+import com.gabrielareia.bridgephotoeditor.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

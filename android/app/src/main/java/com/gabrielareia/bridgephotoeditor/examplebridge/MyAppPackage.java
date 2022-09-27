@@ -1,8 +1,8 @@
-package com.bridgeexample.examplebridge;
+package com.gabrielareia.bridgephotoeditor.examplebridge;
 
 import androidx.annotation.NonNull;
 
-import com.bridgeexample.examplebridge.CalendarModule;
+import com.gabrielareia.bridgephotoeditor.examplebridge.CalendarModule;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
